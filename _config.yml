@@ -1,0 +1,80 @@
+title: Deep Learning sin Farándula
+email: jorge.perez.rojas@gmail.com
+description: >-
+  Blog en español (y a veces también en inglés) para aprender
+  desde lo básico hasta lo actual acerca de redes neuronales profundas 
+  (Deep Learning) en detalle, sin mucha parafernalia, de manera simple
+  pero rigurosa.
+baseurl: "" 
+url: "" 
+date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - contact.html
+
+twitter_username: perez
+github_username:  jorge.perez.rojas
+
+text:
+  pagination:
+    newer: 'Más nuevo'
+    older: 'Más antiguo'
+  share_buttons:
+    text:         'Comparte el artículo'
+    facebook:     'Comparte en Facebook'
+    twitter:      'Comparte en Twitter'
+    linkedin:     'Comparte en LinkedIn'
+    tumblr:       'Comparte en Tumblr'
+    reddit:       'Comparte en Reddit'
+  post:
+    updated:        'Actualizado'
+    minute_read:    'minutos de lectura'
+    related_posts:  'Artículos relacionados'
+  index:
+    coming_soon: 'Pronto...'
+  contact:
+    email:    'Email'
+    content:  '¿Qué quieres decir?'
+    subject:  '¡Nuevo!'
+    submit:   'Hola'
+    ajax:
+      sending:  'enviando...'
+      sent:     '¡Enviado!'
+      error:    '¡Error!'
+  thanks: 'Gracias por contactarnos. Te responderemos tan pronto como sea posible.'
+  og_locale: 'es_CL'
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_linkedin: true
+share_tumblr: false
+share_reddit: false
+
+# Build settings
+markdown: kramdown
+#theme: minima
+theme: pixyll
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
